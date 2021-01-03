@@ -1,0 +1,35 @@
+@media (max-width: 638px) {
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        div {
+            &:nth-child(2) .footer-list {
+                margin-bottom: 15px;
+            }
+            &:nth-child(1) .footer-list .footer-item:last-child {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 584) {
+    .main-input {
+        padding: 0 30px;
+        .main-form {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .main-input {
+        padding: 0 15px;
+    }
+
+    .main-logo {
+        img {
+            width: 220px;
+        }
+    }
+}

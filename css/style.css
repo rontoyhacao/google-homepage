@@ -269,4 +269,40 @@ main .main-submit button:hover {
 .footer .footer-list .footer-item .footer-link {
   font-size: 14px;
 }
+
+@media (max-width: 638px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer div:nth-child(2) .footer-list {
+    margin-bottom: 15px;
+  }
+  .footer div:nth-child(1) .footer-list .footer-item:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 584) {
+  .main-input {
+    padding: 0 30px;
+  }
+  .main-input .main-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-input {
+    padding: 0 15px;
+  }
+  .main-logo img {
+    width: 220px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
