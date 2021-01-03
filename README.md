@@ -1,1 +1,1 @@
-this is gonna be my very first project... to be continued.
+Google landing page from the odin project.
